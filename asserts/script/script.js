@@ -17,18 +17,18 @@ bt5.addEventListener ('click', function () {
 })
 
 for (const i of buttons) {
-    i.addEventListener('click', function() { 
+  i.addEventListener('click', function() {
     antiClockWise()
     rename()
   })
 }
 
-function clockWise() {
+function clockWise () {
   changeValue = x.pop()
   x.unshift(changeValue)
 }
 
-function rename() {
+function rename () {
   bt1.innerHTML = x[0]
   bt2.innerHTML = x[1]
   bt3.innerHTML = x[2]
@@ -39,8 +39,7 @@ function rename() {
   bt9.innerHTML = x[4]
 }
 
-function antiClockWise() {
+function antiClockWise () {
   changeValue = x.shift()
   x.push(changeValue)
 }
-
