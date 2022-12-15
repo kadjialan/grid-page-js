@@ -11,13 +11,13 @@ const bt9 = document.getElementById('9')
 let changeValue
 const x = [1, 2, 3, 6, 9, 8, 7, 4]
 
-bt5.addEventListener ('click', function () {
+bt5.addEventListener('click', function () {
   clockWise()
   rename()
 })
 
 for (const i of buttons) {
-  i.addEventListener('click', function() {
+  i.addEventListener('click', function () {
     antiClockWise()
     rename()
   })
